@@ -1,0 +1,6 @@
+TO USE THIS REPO:
+1. clone the REPO
+2. paste the "StreamingAssets" folder into the Assets folder
+3. open the project in UNITY
+4. rebuild the scenes *project > assets > scenes > any scene*
+5. press play
