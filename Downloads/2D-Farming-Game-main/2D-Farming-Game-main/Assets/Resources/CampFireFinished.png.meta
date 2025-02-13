@@ -87,7 +87,7 @@ TextureImporter:
       213: 6962089050531257532
     second: CampFireFinished_4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -104,9 +104,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -115,9 +118,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -138,10 +141,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -153,6 +161,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -165,6 +174,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -186,7 +209,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c923b0e8916adb8b0800000000000000
-      internalID: -5134765371445005668
+      internalID: 2568837401350651815
       vertices: []
       indices: 
       edges: []
@@ -207,7 +230,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 724a6c78ca54e12e0800000000000000
-      internalID: -2153206964521884633
+      internalID: -5784929331180331738
       vertices: []
       indices: 
       edges: []
@@ -228,7 +251,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e8c8c371841277950800000000000000
-      internalID: 6446657985115360398
+      internalID: 6703503656626188089
       vertices: []
       indices: 
       edges: []
@@ -249,7 +272,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0b33ffa5d6beb0280800000000000000
-      internalID: -9075901769124465744
+      internalID: -836580246522959223
       vertices: []
       indices: 
       edges: []
@@ -270,7 +293,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cbc5d8fca1f4e9060800000000000000
-      internalID: 6962089050531257532
+      internalID: -6237535784788995661
       vertices: []
       indices: 
       edges: []
@@ -285,9 +308,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      CampFireFinished_0: 2568837401350651815
+      CampFireFinished_1: -5784929331180331738
+      CampFireFinished_2: 6703503656626188089
+      CampFireFinished_3: -836580246522959223
+      CampFireFinished_4: -6237535784788995661
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

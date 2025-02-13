@@ -1077,7 +1077,7 @@ TextureImporter:
       213: 4891116934151663516
     second: Plants_357
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -1094,9 +1094,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1105,9 +1108,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1128,10 +1131,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1143,6 +1151,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1155,6 +1164,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1167,6 +1177,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1917,9 +1928,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Corn_0: -5672623778664467425
+      Corn_1: -2035428738516297807
+      Corn_2: 5847049274800468493
+      Corn_3: -3267802180754169167
+      Corn_4: -4574371936455361759
+      Corn_5: 31694560097805967
+      Corn_Collected: 4652486491411619603
+      Invisible: -4875957200950293933
+      Parsley_0: 1352955200029874055
+      Parsley_1: -4881008103234269068
+      Parsley_2: -1268064389544249124
+      Parsley_3: -7391759607893831176
+      Parsley_4: -5840972274582744104
+      Parsley_Collected: 3442116038242085032
+      Potato_0: 3771794143540122796
+      Potato_1: 1382702579413758816
+      Potato_2: -854724729293753505
+      Potato_3: 2250893151467517711
+      Potato_4: -6122111789870299419
+      Potato_5: 2899441650435199170
+      Potato_Collected: -2873419383981771206
+      Strawberry_0: 28957958560412503
+      Strawberry_1: -6977799265050867761
+      Strawberry_2: -6275190098688083881
+      Strawberry_3: 2469693042209497120
+      Strawberry_4: 3417127870617691774
+      Strawberry_5: -7155205528536916930
+      Strawberry_Collected: -3665902485383732164
+      Tomato_0: 8635903978712429406
+      Tomato_1: 6612842843856697754
+      Tomato_2: 3365857472248335254
+      Tomato_3: 2818887975088091370
+      Tomato_4: -5981771769347585550
+      Tomato_5: -4623013704069786145
+      Tomato_Collected: -3293256711928181663
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
