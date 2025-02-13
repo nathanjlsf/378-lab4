@@ -80,7 +80,6 @@
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\CropsReadController.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemPanel.cs" />
-    <Compile Include="Assets\Scripts\Sounds\Sound.cs" />
     <Compile Include="Assets\Scripts\Parameters\HungerController.cs" />
     <Compile Include="Assets\Scripts\ToolsCharacterController.cs" />
     <Compile Include="Assets\Scripts\Parameters\HealthController.cs" />
@@ -98,7 +97,6 @@
     <Compile Include="Assets\Scripts\CropsManager.cs" />
     <Compile Include="Assets\Scripts\FireCamp\CampFireReaction.cs" />
     <Compile Include="Assets\Scripts\TileData.cs" />
-    <Compile Include="Assets\Scripts\Sounds\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Parameters\TemperatureController.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerHit.cs" />
     <Compile Include="Assets\Scripts\Plants\Strawberry.cs" />

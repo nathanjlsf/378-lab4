@@ -77,7 +77,6 @@ public class UI_ShopController : MonoBehaviour
         if (money.canBuyItems(itemCost))
         {
             money.substractMoney(itemCost);
-            FindObjectOfType<SoundManager>().Play("Money");
 
             if (item.Name.Contains("Seeds_Corn"))
             {

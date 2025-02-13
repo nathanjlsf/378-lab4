@@ -73,7 +73,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (vector != Vector3.zero)
         {
-            Move();
+//            Move();
             animator.SetFloat("moveX", vector.x);
             animator.SetFloat("moveY", vector.y);
             animator.SetBool("moving", true);
@@ -81,19 +81,17 @@ public class PlayerControl : MonoBehaviour
         else
         {
             animator.SetBool("moving", false);
-            if (FindObjectOfType<SoundManager>().SoundIsPlaying("Walk"))
             {
-                FindObjectOfType<SoundManager>().Stop("Walk");
             }
         }
     }
+
     //Move character
-    void Move()
-    {
-        myRigidbody2D.MovePosition(transform.position + vector * speed * Time.deltaTime);
-        if (!FindObjectOfType<SoundManager>().SoundIsPlaying("Walk"))
-        {
-            FindObjectOfType<SoundManager>().Play("Walk");
-        }
-    }
+//    void Move()
+//    {
+//        myRigidbody2D.MovePosition(transform.position + vector * speed * Time.deltaTime);
+//        if ()
+//        {
+//        }
+//    }
 }

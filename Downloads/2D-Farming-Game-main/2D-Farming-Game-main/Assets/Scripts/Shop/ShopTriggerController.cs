@@ -10,7 +10,6 @@ public class ShopTriggerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         uiShop.Show();
-        FindObjectOfType<SoundManager>().Play("Parrot");
     }
 
     private void OnTriggerExit2D(Collider2D collider)

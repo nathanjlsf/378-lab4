@@ -12,7 +12,6 @@ public class TreeCuttable : ToolHit
     public override void Hit()
     {
         
-        FindObjectOfType<SoundManager>().Play("Cut");
         hitCount++;
         if (hitCount >= 3){
             MoneyController.money += 30;
