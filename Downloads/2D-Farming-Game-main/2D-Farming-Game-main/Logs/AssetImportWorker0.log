@@ -2329,3 +2329,12 @@ Start importing Assets/Scenes/GameOver.unity using Guid(c1382787f69f1fd4fb1a75f0
  -> (artifact id: '78e4ce437d014dd6158a209d80029633') in 0.000563 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 354.195680 seconds.
+  path: Assets/Scripts/Tree/TreeCuttable.cs
+  artifactKey: Guid(11e678a9c979f73418ae19c7d71fd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Tree/TreeCuttable.cs using Guid(11e678a9c979f73418ae19c7d71fd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c53f147ffcc719328d41c393eaf48e8f') in 0.002161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
