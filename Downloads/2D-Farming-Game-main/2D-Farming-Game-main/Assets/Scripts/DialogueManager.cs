@@ -20,22 +20,30 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        toolbar = Resources.FindObjectsOfTypeAll<GameObject>().FirstOrDefault(g => g.CompareTag("toolbar"));
-        shop = Resources.FindObjectsOfTypeAll<GameObject>().LastOrDefault(g => g.CompareTag("shop"));
-        chest = Resources.FindObjectsOfTypeAll<GameObject>().LastOrDefault(g => g.CompareTag("chest"));
-        inventory = Resources.FindObjectsOfTypeAll<GameObject>().FirstOrDefault(g => g.CompareTag("inventory"));
+        //toolbar = Resources.FindObjectsOfTypeAll<GameObject>().FirstOrDefault(g => g.CompareTag("toolbar"));
+        //shop = Resources.FindObjectsOfTypeAll<GameObject>().LastOrDefault(g => g.CompareTag("shop"));
+        //chest = Resources.FindObjectsOfTypeAll<GameObject>().LastOrDefault(g => g.CompareTag("chest"));
+        //inventory = Resources.FindObjectsOfTypeAll<GameObject>().FirstOrDefault(g => g.CompareTag("inventory"));
     }
 
     // Start is called before the first frame update
+    /*
     void Start()
+{
+    if (textDisplay != null)
     {
-        toolbar.SetActive(false);
-        shop.SetActive(false);
-        chest.SetActive(false);
-        inventory.SetActive(false);
-
-        StartCoroutine(Type());
+        textDisplay.text = "{placeholder}";
     }
+    else
+    {
+        Debug.LogError("textDisplay is not assigned in the Inspector.");
+    }
+
+    //if (toolbar != null) toolbar.SetActive(false);
+//    if (shop != null) shop.SetActive(false);
+//    if (chest != null) chest.SetActive(false);
+//    if (inventory != null) inventory.SetActive(false);
+}
 
 
     // Update is called once per frame
@@ -63,27 +71,21 @@ public class DialogueManager : MonoBehaviour
 
     // Moving through sentences
     public void GoToNextSentence()
+{
+    pressToContinue.SetActive(false);
+
+    if (index < sentences.Length - 1)
     {
-        pressToContinue.SetActive(false);
-
-        if (index < sentences.Length - 1)
-        {
-            textDisplay.text = "";
-            index++;
-            StartCoroutine(Type());
-            
-        }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                dialogueBox.SetActive(false);
-                toolbar.SetActive(true);
-                chest.SetActive(true);
-
-                shop.SetActive(true);
-            }
-            
-        }
+        textDisplay.text = "";
+        index++;
+        StartCoroutine(Type());
     }
+    else
+    {
+        // Immediately hide the dialogue box without requiring another key press
+        dialogueBox.SetActive(false);
+        dialogueActive = false; // Ensure no more input is processed
+    }
+}
+*/
 }

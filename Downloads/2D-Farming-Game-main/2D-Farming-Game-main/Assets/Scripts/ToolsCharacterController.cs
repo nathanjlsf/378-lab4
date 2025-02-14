@@ -327,7 +327,6 @@ public class ToolsCharacterController : MonoBehaviour
             else if (crops[(Vector2Int)selectedTilePosition].planted && fields[(Vector2Int)selectedTilePosition].waterable && toolbarController.GetItem.Name == "WateringCan")
             {
                 cropsManager.Water(selectedTilePosition);
-                FindObjectOfType<SoundManager>().Play("Water");
             }
 
             else if (crops[(Vector2Int)selectedTilePosition].collectibleCorn && toolbarController.GetItem.Name == "Bag")
