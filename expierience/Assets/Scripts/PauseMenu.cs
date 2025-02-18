@@ -7,7 +7,7 @@ public class PauseMenu : MonoBehaviour
     private bool isPaused = false;
 
     void Update()
-    {
+    
         if (Input.GetKeyDown(KeyCode.P)) // lowercase 'p' to pause game
         {
             Debug.Log("P key pressed");
