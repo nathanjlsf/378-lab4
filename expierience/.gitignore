@@ -32,3 +32,72 @@ Desktop.ini
 
 # Exclude StreamingAssets folder
 /Assets/StreamingAssets/
+
+# for theresa to push
+ ../.CFUserTextEncoding
+        ../.DS_Store
+        ../.IdentityService/
+        ../.arduinoIDE/
+        ../.config/
+        ../.cups/
+        ../.docker/
+        ../.fop/
+        ../.gitconfig
+        ../.idlerc/
+        ../.lesshst
+        ../.m2/
+        ../.mongodb/
+        ../.mono/
+        ../.npm/
+        ../.nvm/
+        ../.plastic4/
+        ../.putty/
+        ../.python_history
+        ../.ssh/
+        ../.stm32cubeide/
+        ../.stm32cubemx/
+        ../.stmcube/
+        ../.stmcufinder/
+        ../.templateengine/
+        ../.th-client/
+        ../.thumbnails/
+        ../.viminfo
+        ../.vscode/
+        ../.zcompdump
+        ../.zprofile
+        ../.zprofile.pysave
+        ../.zsh_history
+        ../.zsh_sessions/
+        ../378-lab4/
+        ../3dpano/
+        ../Applications/
+        ../Desktop/
+        ../Documents/
+        ../Downloads/
+        ../IdeaProjects/
+        ../Library/
+        ../Movies/
+        ../Music/
+        ../OneDrive - Cal Poly
+        ../Pictures/
+        ../Public/
+        ../PycharmProjects/
+        ../SLOutions/
+        ../STM32Cube/
+        ../STM32CubeIDE/
+        ../cat/
+        ../cs321/
+        ../csc-307-app/README.md
+        ../csc-307-app/jest-unit-testing/
+        ../csc-307-app/packages/.DS_Store
+        ../csc-307-app/packages/express-backend/
+        ../csc-307-app/packages/react-frontend/src/Form.jsx
+        ../csc-307-app/packages/react-frontend/src/MyApp.jsx
+        ../csc-307-app/packages/react-frontend/src/Table.jsx
+        ../csc-307-app/packages/react-frontend/src/main.css
+        ../docker/
+        ../ee367/
+        ../lab3/
+        ../mu_code/
+        ../nltk_data/
+        ../website/
