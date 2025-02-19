@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class ToolbarController : MonoBehaviour
 {
-    // We can later change it in the inspector because it's serialized
 
     [SerializeField] int toolbarSize = 8;
     public int selectedTool;                               // Holds the id of the selected tool

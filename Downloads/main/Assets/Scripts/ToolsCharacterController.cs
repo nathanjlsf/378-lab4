@@ -66,7 +66,7 @@ public class ToolsCharacterController : MonoBehaviour
         SelectTile();
         CanSelectCheck();
         Marker();
-        if (Input.GetMouseButtonDown(0)) // lewy przycisk myszki
+        if (Input.GetMouseButtonDown(0)) 
         {
             if (!inventoryController.isOpen) //you can use tools only if inventory is closed
             {
@@ -86,7 +86,6 @@ public class ToolsCharacterController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
         if (hit)
         {
-            //Debug.Log(hit.collider.gameObject.name);
             if (hit.collider.gameObject.name.Contains("Tree"))
             {
                 return true;
@@ -201,7 +200,6 @@ public class ToolsCharacterController : MonoBehaviour
                 toolbarController.GetItem.Name == "Axe" && CastRay() == true)
             {
                 hitTree.Hit();
-                // Debug.Log("we can hit");
                 return true;
             }
             if (hitFire != null && toolbarController.GetItem != null &&
@@ -242,19 +240,13 @@ public class ToolsCharacterController : MonoBehaviour
         {
             TileBase tileBase = tileMapReadController.GetTileBase(selectedTilePosition);
             TileData tileData = tileMapReadController.GetTileData(tileBase);
-            //TileData cropData = cropsReadController.GetTileData(tileBase);
-
-            /*if (toolbarController.GetItem.Name == "WateringCan" && fields[(Vector2Int)selectedTilePosition].watered) //if you are using watering can - play sound of water
-                FindObjectOfType<SoundManager>().Play("Water");*/
+           
 
             if (tileData != plowableTiles && tileData != toMowTiles && tileData != toSeedTiles && tileData != waterableTiles) //if tile doesn't have any ability
             {
                 return;
             }
 
-            // Debug.Log("Wybrane narzędzie: " + toolbarController.GetItem.Name);
-            //Debug.Log(crops[(Vector2Int)selectedTilePosition]);
-            //if there is no plant on tile
             if (crops[(Vector2Int)selectedTilePosition].noPlant)
             {
                 //usage of tools if tile has suitable ability
@@ -342,7 +334,6 @@ public class ToolsCharacterController : MonoBehaviour
                         break;
                     }
                 }
-                //Debug.Log("dodajemy corn");
 
             }
             else if (crops[(Vector2Int)selectedTilePosition].collectibleParsley && toolbarController.GetItem.Name == "Bag")
@@ -357,7 +348,6 @@ public class ToolsCharacterController : MonoBehaviour
                         break;
                     }
                 }
-                //Debug.Log("dodajemy parsley");
             }
             else if (crops[(Vector2Int)selectedTilePosition].collectiblePotato && toolbarController.GetItem.Name == "Bag")
             {
@@ -371,7 +361,6 @@ public class ToolsCharacterController : MonoBehaviour
                         break;
                     }
                 }
-                //Debug.Log("dodajemy potato");
             }
             else if (crops[(Vector2Int)selectedTilePosition].collectibleStrawberry && toolbarController.GetItem.Name == "Bag")
             {
@@ -385,7 +374,6 @@ public class ToolsCharacterController : MonoBehaviour
                         break;
                     }
                 }
-                //Debug.Log("dodajemy strawberry");
             }
             else if (crops[(Vector2Int)selectedTilePosition].collectibleTomato && toolbarController.GetItem.Name == "Bag")
             {
@@ -399,7 +387,6 @@ public class ToolsCharacterController : MonoBehaviour
                         break;
                     }
                 }
-                //Debug.Log("dodajemy tomato");
             }
 
         }

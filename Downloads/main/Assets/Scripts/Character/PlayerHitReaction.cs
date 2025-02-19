@@ -14,30 +14,30 @@ public class PlayerHitReaction : PlayerHit
         switch (toolbarController.GetItem.Name)
         {
             case "Food_Corn":
-                Debug.Log("Zjadłeś kukurydze");
+                Debug.Log("corn");
                 AddHunger(20);
                 break;
 
             case "Food_Parsley":
-                Debug.Log("Zjadłeś pietruszkę");
+                Debug.Log("parsley");
                 AddHealth(5);
                 AddHunger(10);
                 break;
 
             case "Food_Potato":
-                Debug.Log("Zjadłeś ziemniaka");
+                Debug.Log("potato");
                 AddHealth(5);
                 AddHunger(40);
                 break;
 
             case "Food_Strawberry":
-                Debug.Log("Zjadłeś truskawkę");
+                Debug.Log("strawb");
                 AddHealth(30);
                 AddHunger(10);
                 break;
 
             case "Food_Tomato":
-                Debug.Log("Zjadłeś pomidora");
+                Debug.Log("tomato");
                 AddHunger(30);
                 break;
         }

@@ -44,29 +44,4 @@ public class MoneyController : MonoBehaviour
         else return true;
     }
 
-    //private string formatMoney(long moneyToFormat)
-    //{
-    //    string suffix;
-    //    if (moneyToFormat < 1000)
-    //    {
-    //        moneyToFormat = moneyToFormat;
-    //        suffix = "";
-    //    }
-    //    else if (moneyToFormat < 1000000)
-    //    {
-    //        moneyToFormat = moneyToFormat / 1000;
-    //        suffix = "K";
-    //    }
-    //    else if (moneyToFormat < 1000000000)
-    //    {
-    //        moneyToFormat = moneyToFormat / 1000000;
-    //        suffix = "M";
-    //    }
-    //    else
-    //    {
-    //        moneyToFormat = moneyToFormat / 1000000000;
-    //        suffix = "B";
-    //    }
-    //    return moneyToFormat.ToString() + suffix;
-    //}
 }

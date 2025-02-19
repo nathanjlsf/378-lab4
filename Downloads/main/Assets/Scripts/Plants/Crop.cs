@@ -21,7 +21,6 @@ public class Crop : ScriptableObject
 
     public TileBase state5;
 
-    //public Tilemap cropTilemap;
 
     public TileBase state;
     public Vector3Int position;
